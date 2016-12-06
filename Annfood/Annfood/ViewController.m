@@ -126,7 +126,6 @@
 //    if ([tags rangeOfString:@",A,"].location != NSNotFound) {
 //        [sheet addButtonWithTitle:@"打开链接"];
 //    }
-//    NSLog(@"tags:%@",tags);
 //    if ([_webView.request.URL.absoluteString isEqualToString:@"http://m5.31huiyi.com/Home/Index/5832c4456341980de816a813?invent=chat#chat"]) {
         //    if ([tags rangeOfString:@",IMG,"].location != NSNotFound) {
         NSString *str = [NSString stringWithFormat:@"document.elementFromPoint(%f, %f).src", pt.x, pt.y];
